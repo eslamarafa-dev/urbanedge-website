@@ -1,0 +1,634 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="URBANEDGE - Digital solutions for modern businesses. We help startups and corporations build impactful digital experiences.">
+    <title>URBANEDGE | Digital Solutions</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <!-- Preloader -->
+    <div class="progress-bar" id="progressBar"></div>
+
+    <div class="preloader" id="preloader">
+        <div class="preloader-content">
+            <div class="loader-logo">
+                <i class="fas fa-bolt" style="color: var(--accent);"></i>
+                <span>URBAN</span>EDGE
+            </div>
+            <div class="loader-spinner"></div>
+        </div>
+    </div>
+
+    <!-- Header -->
+    <header class="header" id="header">
+        <div class="container">
+            <div class="header-inner">
+                <a href="#" class="logo">
+                    <span class="logo-mark">
+                        <i class="fas fa-bolt"></i>
+                    </span>
+                    <span class="logo-text">URBAN<span>EDGE</span></span>
+                </a>
+
+                <nav class="nav">
+                    <button class="menu-toggle" id="menuToggle" aria-label="Toggle menu">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </button>
+                    
+                    <ul class="nav-list" id="navList">
+                        <li><a href="#hero" class="nav-link active">Home</a></li>
+                        <li><a href="#about" class="nav-link">About</a></li>
+                        <li><a href="#services" class="nav-link">Services</a></li>
+                        <li><a href="#portfolio" class="nav-link">Portfolio</a></li>
+                        <li><a href="#testimonials" class="nav-link">Testimonials</a></li>
+                        <li><a href="#contact" class="nav-link">Contact</a></li>
+                    </ul>
+
+                    <div class="nav-cta">
+                        <a href="#contact" class="btn btn-primary">Get Started</a>
+                    </div>
+                </nav>
+            </div>
+        </div>
+        <div class="nav-overlay" id="navOverlay"></div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="hero">
+        <div class="hero-bg"></div>
+        <img src="https://images.unsplash.com/photo-1553877522-43269d4ea984?ixlib=rb-4.0.3&auto=format&fit=crop&w=2000&q=80" alt="" class="hero-image">
+        <div class="hero-particles" id="heroParticles"></div>
+        
+        <div class="container">
+            <div class="hero-content">
+                <span class="hero-badge">
+                    <i class="fas fa-star"></i>
+                    Award-Winning Digital Agency
+                </span>
+                <h1>We Build <span>Digital Experiences</span> That Drive Growth</h1>
+                <p class="hero-description">Transform your business with cutting-edge web solutions, stunning designs, and innovative strategies that deliver measurable results.</p>
+                <div class="hero-buttons">
+                    <a href="#contact" class="btn btn-primary">
+                        Start Your Project
+                        <i class="fas fa-arrow-right"></i>
+                    </a>
+                    <a href="#portfolio" class="btn btn-outline">
+                        <i class="fas fa-play"></i>
+                        View Our Work
+                    </a>
+                </div>
+                <div class="hero-stats">
+                    <div class="hero-stat">
+                        <div class="hero-stat-number">250+</div>
+                        <div class="hero-stat-label">Projects Completed</div>
+                    </div>
+                    <div class="hero-stat">
+                        <div class="hero-stat-number">98%</div>
+                        <div class="hero-stat-label">Client Satisfaction</div>
+                    </div>
+                    <div class="hero-stat">
+                        <div class="hero-stat-number">10+</div>
+                        <div class="hero-stat-label">Years Experience</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <a href="#about" class="hero-scroll" aria-label="Scroll to About Section">
+            <div class="scroll-mouse">
+                <div class="scroll-wheel"></div>
+            </div>
+            <div class="scroll-arrows">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </a>
+    </section>
+
+    <!-- About Section -->
+    <section class="section about" id="about">
+        <div class="container">
+            <div class="about-grid">
+                <div class="about-image-wrapper reveal-left">
+                    <div class="about-main-image">
+                        <img src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80" alt="Our Team">
+                    </div>
+                    <div class="about-experience-card">
+                        <div class="experience-number">10+</div>
+                        <div class="experience-text">Years of<br>Excellence</div>
+                    </div>
+                </div>
+                <div class="about-content reveal-right">
+                    <div class="section-header" style="text-align: left; margin-bottom: 2rem;">
+                        <span class="section-badge">
+                            <i class="fas fa-info-circle"></i>
+                            About Us
+                        </span>
+                        <h2>Creating Digital Solutions Since 2014</h2>
+                    </div>
+                    <p class="about-description">URBANEDGE is a premier digital agency specializing in crafting exceptional web experiences, mobile applications, and digital strategies that help businesses thrive in the modern marketplace.</p>
+                    <p class="about-description">Our team of expert designers, developers, and strategists work collaboratively to deliver innovative solutions that exceed expectations and drive real business results.</p>
+                    
+                    <div class="about-features">
+                        <div class="about-feature">
+                            <i class="fas fa-check"></i>
+                            Award-Winning Team
+                        </div>
+                        <div class="about-feature">
+                            <i class="fas fa-check"></i>
+                            Agile Development
+                        </div>
+                        <div class="about-feature">
+                            <i class="fas fa-check"></i>
+                            24/7 Support
+                        </div>
+                        <div class="about-feature">
+                            <i class="fas fa-check"></i>
+                            Result-Driven
+                        </div>
+                    </div>
+                    
+                    <a href="#services" class="btn btn-secondary">
+                        Explore Services
+                        <i class="fas fa-arrow-right"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="section services" id="services">
+        <div class="container">
+            <div class="section-header reveal">
+                <span class="section-badge">
+                    <i class="fas fa-cog"></i>
+                    Our Services
+                </span>
+                <h2 class="section-title">What We Offer</h2>
+                <p class="section-subtitle">Comprehensive digital solutions tailored to your business needs</p>
+            </div>
+            
+            <div class="services-grid">
+                <div class="service-card reveal" style="transition-delay: 0.1s;">
+                    <div class="service-icon">
+                        <i class="fas fa-code"></i>
+                    </div>
+                    <h3>Web Development</h3>
+                    <p>Custom websites and web applications built with cutting-edge technologies for optimal performance and user experience.</p>
+                    <a href="#" class="service-link">Learn More <i class="fas fa-arrow-right"></i></a>
+                </div>
+                
+                <div class="service-card reveal" style="transition-delay: 0.2s;">
+                    <div class="service-icon">
+                        <i class="fas fa-mobile-screen-button"></i>
+                    </div>
+                    <h3>Mobile Apps</h3>
+                    <p>Native and cross-platform mobile applications designed to engage users and accelerate business growth.</p>
+                    <a href="#" class="service-link">Learn More <i class="fas fa-arrow-right"></i></a>
+                </div>
+                
+                <div class="service-card reveal" style="transition-delay: 0.3s;">
+                    <div class="service-icon">
+                        <i class="fas fa-palette"></i>
+                    </div>
+                    <h3>UI/UX Design</h3>
+                    <p>User-centered design solutions that enhance usability, accessibility, and visual appeal across all platforms.</p>
+                    <a href="#" class="service-link">Learn More <i class="fas fa-arrow-right"></i></a>
+                </div>
+                
+                <div class="service-card reveal" style="transition-delay: 0.4s;">
+                    <div class="service-icon">
+                        <i class="fas fa-chart-pie"></i>
+                    </div>
+                    <h3>Digital Strategy</h3>
+                    <p>Data-driven strategies to optimize your digital presence and achieve sustainable business growth.</p>
+                    <a href="#" class="service-link">Learn More <i class="fas fa-arrow-right"></i></a>
+                </div>
+                
+                <div class="service-card reveal" style="transition-delay: 0.5s;">
+                    <div class="service-icon">
+                        <i class="fas fa-cloud"></i>
+                    </div>
+                    <h3>Cloud Solutions</h3>
+                    <p>Scalable cloud infrastructure and migration services to power your digital transformation journey.</p>
+                    <a href="#" class="service-link">Learn More <i class="fas fa-arrow-right"></i></a>
+                </div>
+                
+                <div class="service-card reveal" style="transition-delay: 0.6s;">
+                    <div class="service-icon">
+                        <i class="fas fa-shield-halved"></i>
+                    </div>
+                    <h3>Cybersecurity</h3>
+                    <p>Comprehensive security solutions to protect your digital assets and ensure business continuity.</p>
+                    <a href="#" class="service-link">Learn More <i class="fas fa-arrow-right"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Why Choose Us -->
+    <section class="section why-choose" id="why-choose">
+        <div class="container">
+            <div class="section-header reveal">
+                <span class="section-badge">
+                    <i class="fas fa-trophy"></i>
+                    Why Us
+                </span>
+                <h2 class="section-title">Why Choose URBANEDGE</h2>
+                <p class="section-subtitle">What sets us apart from the competition</p>
+            </div>
+            
+            <div class="features-grid">
+                <div class="feature-card reveal" style="transition-delay: 0.1s;">
+                    <div class="feature-icon">
+                        <i class="fas fa-lightbulb"></i>
+                    </div>
+                    <h3>Innovation First</h3>
+                    <p>We stay ahead of industry trends and leverage cutting-edge technologies to deliver future-proof solutions.</p>
+                </div>
+                
+                <div class="feature-card reveal" style="transition-delay: 0.2s;">
+                    <div class="feature-icon">
+                        <i class="fas fa-users-gear"></i>
+                    </div>
+                    <h3>Expert Team</h3>
+                    <p>Our diverse team brings deep expertise across design, development, and digital strategy.</p>
+                </div>
+                
+                <div class="feature-card reveal" style="transition-delay: 0.3s;">
+                    <div class="feature-icon">
+                        <i class="fas fa-bullseye"></i>
+                    </div>
+                    <h3>Results Driven</h3>
+                    <p>We measure success by the impact we make on your business goals and ROI.</p>
+                </div>
+                
+                <div class="feature-card reveal" style="transition-delay: 0.4s;">
+                    <div class="feature-icon">
+                        <i class="fas fa-handshake"></i>
+                    </div>
+                    <h3>Partnership Approach</h3>
+                    <p>We build long-term relationships based on trust, transparency, and mutual success.</p>
+                </div>
+                
+                <div class="feature-card reveal" style="transition-delay: 0.5s;">
+                    <div class="feature-icon">
+                        <i class="fas fa-clock"></i>
+                    </div>
+                    <h3>On-Time Delivery</h3>
+                    <p>We respect deadlines and deliver projects on time without compromising quality.</p>
+                </div>
+                
+                <div class="feature-card reveal" style="transition-delay: 0.6s;">
+                    <div class="feature-icon">
+                        <i class="fas fa-headset"></i>
+                    </div>
+                    <h3>24/7 Support</h3>
+                    <p>Round-the-clock technical support and maintenance to ensure smooth operations.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section class="section portfolio" id="portfolio">
+        <div class="container">
+            <div class="section-header reveal">
+                <span class="section-badge">
+                    <i class="fas fa-briefcase"></i>
+                    Portfolio
+                </span>
+                <h2 class="section-title">Our Recent Work</h2>
+                <p class="section-subtitle">Explore our latest projects and success stories</p>
+            </div>
+            
+            <div class="portfolio-grid">
+                <div class="portfolio-card reveal" style="transition-delay: 0.1s;">
+                    <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Project 1">
+                    <div class="portfolio-overlay">
+                        <span class="portfolio-category">E-Commerce</span>
+                        <h3 class="portfolio-title">ShopFlow Platform</h3>
+                        <p class="portfolio-description">Complete e-commerce solution with AI-powered recommendations</p>
+                    </div>
+                </div>
+                
+                <div class="portfolio-card reveal" style="transition-delay: 0.2s;">
+                    <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Project 2">
+                    <div class="portfolio-overlay">
+                        <span class="portfolio-category">FinTech</span>
+                        <h3 class="portfolio-title">FinanceHub Dashboard</h3>
+                        <p class="portfolio-description">Real-time financial analytics and trading platform</p>
+                    </div>
+                </div>
+                
+                <div class="portfolio-card reveal" style="transition-delay: 0.3s;">
+                    <img src="https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Project 3">
+                    <div class="portfolio-overlay">
+                        <span class="portfolio-category">Healthcare</span>
+                        <h3 class="portfolio-title">MedConnect App</h3>
+                        <p class="portfolio-description">Telemedicine platform connecting patients and doctors</p>
+                    </div>
+                </div>
+                
+                <div class="portfolio-card reveal" style="transition-delay: 0.4s;">
+                    <img src="https://images.unsplash.com/photo-1556761175-4b46a572b786?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Project 4">
+                    <div class="portfolio-overlay">
+                        <span class="portfolio-category">SaaS</span>
+                        <h3 class="portfolio-title">TaskFlow Pro</h3>
+                        <p class="portfolio-description">Project management solution for remote teams</p>
+                    </div>
+                </div>
+                
+                <div class="portfolio-card reveal" style="transition-delay: 0.5s;">
+                    <img src="https://images.unsplash.com/photo-1519389950473-47ba0277781c?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Project 5">
+                    <div class="portfolio-overlay">
+                        <span class="portfolio-category">Education</span>
+                        <h3 class="portfolio-title">LearnSphere</h3>
+                        <p class="portfolio-description">Online learning platform with interactive courses</p>
+                    </div>
+                </div>
+                
+                <div class="portfolio-card reveal" style="transition-delay: 0.6s;">
+                    <img src="https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Project 6">
+                    <div class="portfolio-overlay">
+                        <span class="portfolio-category">Real Estate</span>
+                        <h3 class="portfolio-title">PropertyFinder</h3>
+                        <p class="portfolio-description">Smart property search with virtual tours</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="section testimonials" id="testimonials">
+        <div class="container">
+            <div class="section-header reveal">
+                <span class="section-badge">
+                    <i class="fas fa-quote-left"></i>
+                    Testimonials
+                </span>
+                <h2 class="section-title">What Clients Say</h2>
+                <p class="section-subtitle">Don't just take our word for it</p>
+            </div>
+            
+            <div class="testimonials-wrapper reveal">
+                <div class="testimonial-slider">
+                    <div class="testimonial-track" id="testimonialTrack">
+                        <div class="testimonial-card">
+                            <div class="testimonial-quote">"</div>
+                            <p class="testimonial-text">URBANEDGE transformed our entire digital presence. Their attention to detail, creative solutions, and commitment to excellence exceeded all our expectations. Highly recommended!</p>
+                            <div class="testimonial-author">
+                                <div class="testimonial-avatar">
+                                    <img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-4.0.3&auto=format&fit=crop&w=200&q=80" alt="Sarah Johnson">
+                                </div>
+                                <span class="testimonial-name">Sarah Johnson</span>
+                                <span class="testimonial-role">CEO, TechStart Inc.</span>
+                                <span class="testimonial-company">@techstart</span>
+                            </div>
+                        </div>
+                        
+                        <div class="testimonial-card">
+                            <div class="testimonial-quote">"</div>
+                            <p class="testimonial-text">The team at URBANEDGE delivered a stunning mobile app that has revolutionized how we interact with our customers. Their expertise and professionalism are unmatched.</p>
+                            <div class="testimonial-author">
+                                <div class="testimonial-avatar">
+                                    <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&auto=format&fit=crop&w=200&q=80" alt="Michael Chen">
+                                </div>
+                                <span class="testimonial-name">Michael Chen</span>
+                                <span class="testimonial-role">CTO, Global Retail Group</span>
+                                <span class="testimonial-company">@globalretail</span>
+                            </div>
+                        </div>
+                        
+                        <div class="testimonial-card">
+                            <div class="testimonial-quote">"</div>
+                            <p class="testimonial-text">Working with URBANEDGE was a game-changer for our business. Their strategic approach and innovative solutions helped us achieve 200% growth in just 6 months.</p>
+                            <div class="testimonial-author">
+                                <div class="testimonial-avatar">
+                                    <img src="https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?ixlib=rb-4.0.3&auto=format&fit=crop&w=200&q=80" alt="Emily Rodriguez">
+                                </div>
+                                <span class="testimonial-name">Emily Rodriguez</span>
+                                <span class="testimonial-role">Founder, Innovate Labs</span>
+                                <span class="testimonial-company">@innovatelabs</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="testimonial-nav">
+                    <button class="testimonial-arrow" id="prevTestimonial" aria-label="Previous testimonial">
+                        <i class="fas fa-chevron-left"></i>
+                    </button>
+                    <div class="testimonial-dots" id="testimonialDots">
+                        <span class="testimonial-dot active" data-index="0"></span>
+                        <span class="testimonial-dot" data-index="1"></span>
+                        <span class="testimonial-dot" data-index="2"></span>
+                    </div>
+                    <button class="testimonial-arrow" id="nextTestimonial" aria-label="Next testimonial">
+                        <i class="fas fa-chevron-right"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="section contact" id="contact">
+        <div class="container">
+            <div class="section-header reveal">
+                <span class="section-badge">
+                    <i class="fas fa-envelope"></i>
+                    Contact Us
+                </span>
+                <h2 class="section-title">Let's Work Together</h2>
+                <p class="section-subtitle">Ready to start your project? Get in touch today</p>
+            </div>
+            
+            <div class="contact-grid">
+                <div class="contact-info reveal-left">
+                    <h3>Get In Touch</h3>
+                    <p class="contact-description">Have a project in mind or want to learn more about our services? We'd love to hear from you. Send us a message and we'll respond within 24 hours.</p>
+                    
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-location-dot"></i>
+                            </div>
+                            <div class="contact-text">
+                                <h4>Our Location</h4>
+                                <p>123 Innovation Drive, Suite 500<br>San Francisco, CA 94105</p>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-phone"></i>
+                            </div>
+                            <div class="contact-text">
+                                <h4>Phone Number</h4>
+                                <a href="tel:+15551234567">+1 (555) 123-4567</a>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            <div class="contact-text">
+                                <h4>Email Address</h4>
+                                <a href="mailto:hello@urbanedge.com">hello@urbanedge.com</a>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-clock"></i>
+                            </div>
+                            <div class="contact-text">
+                                <h4>Business Hours</h4>
+                                <p>Mon - Fri: 9:00 AM - 6:00 PM<br>Sat: 10:00 AM - 2:00 PM</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="contact-form-wrapper reveal-right">
+                    <form id="contactForm">
+                        <div class="form-grid">
+                            <div class="form-group">
+                                <label class="form-label" for="name">Full Name</label>
+                                <input type="text" id="name" class="form-input" placeholder="John Doe" required>
+                                <div class="form-error" id="nameError">Please enter your name</div>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label class="form-label" for="email">Email Address</label>
+                                <input type="email" id="email" class="form-input" placeholder="john@example.com" required>
+                                <div class="form-error" id="emailError">Please enter a valid email address</div>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label class="form-label" for="phone">Phone Number</label>
+                                <input type="tel" id="phone" class="form-input" placeholder="+1 (555) 000-0000">
+                            </div>
+                            
+                            <div class="form-group">
+                                <label class="form-label" for="company">Company</label>
+                                <input type="text" id="company" class="form-input" placeholder="Your Company">
+                            </div>
+                            
+                            <div class="form-group full-width">
+                                <label class="form-label" for="subject">Subject</label>
+                                <input type="text" id="subject" class="form-input" placeholder="How can we help?" required>
+                                <div class="form-error" id="subjectError">Please enter a subject</div>
+                            </div>
+                            
+                            <div class="form-group full-width">
+                                <label class="form-label" for="message">Message</label>
+                                <textarea id="message" class="form-input" rows="5" placeholder="Tell us about your project..." required></textarea>
+                                <div class="form-error" id="messageError">Please enter your message</div>
+                            </div>
+                        </div>
+                        
+                        <button type="submit" class="form-submit">
+                            <span>Send Message</span>
+                            <i class="fas fa-paper-plane"></i>
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <a href="#" class="logo">
+                        <span class="logo-mark">
+                            <i class="fas fa-bolt"></i>
+                        </span>
+                        <span class="logo-text">URBAN<span>EDGE</span></span>
+                    </a>
+                    <p>Creating digital solutions that drive growth and transform businesses worldwide. Your success is our mission.</p>
+                    <div class="social-links">
+                        <a href="#" class="social-link" aria-label="Facebook">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                        <a href="#" class="social-link" aria-label="Twitter">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                        <a href="#" class="social-link" aria-label="Instagram">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a href="#" class="social-link" aria-label="LinkedIn">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+                        <a href="#" class="social-link" aria-label="Dribbble">
+                            <i class="fab fa-dribbble"></i>
+                        </a>
+                    </div>
+                </div>
+                
+                <div class="footer-column">
+                    <h4 class="footer-title">Quick Links</h4>
+                    <ul class="footer-links">
+                        <li><a href="#hero"><i class="fas fa-chevron-right"></i> Home</a></li>
+                        <li><a href="#about"><i class="fas fa-chevron-right"></i> About Us</a></li>
+                        <li><a href="#services"><i class="fas fa-chevron-right"></i> Services</a></li>
+                        <li><a href="#portfolio"><i class="fas fa-chevron-right"></i> Portfolio</a></li>
+                        <li><a href="#contact"><i class="fas fa-chevron-right"></i> Contact</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-column">
+                    <h4 class="footer-title">Services</h4>
+                    <ul class="footer-links">
+                        <li><a href="#"><i class="fas fa-chevron-right"></i> Web Development</a></li>
+                        <li><a href="#"><i class="fas fa-chevron-right"></i> Mobile Apps</a></li>
+                        <li><a href="#"><i class="fas fa-chevron-right"></i> UI/UX Design</a></li>
+                        <li><a href="#"><i class="fas fa-chevron-right"></i> Cloud Solutions</a></li>
+                        <li><a href="#"><i class="fas fa-chevron-right"></i> Cybersecurity</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-column">
+                    <h4 class="footer-title">Newsletter</h4>
+                    <p style="color: rgba(255, 255, 255, 0.7); font-size: 0.9375rem; margin-bottom: 0.75rem;">Subscribe to get the latest updates and news.</p>
+                    <form class="newsletter-form" id="newsletterForm">
+                        <input type="email" class="newsletter-input" placeholder="Enter your email" required>
+                        <button type="submit" class="newsletter-btn">
+                            <i class="fas fa-paper-plane"></i>
+                        </button>
+                    </form>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p class="footer-copyright">&copy; 2024 URBANEDGE. All rights reserved Developed by Eslam Arafa.</p>
+                <div class="footer-legal">
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Terms of Service</a>
+                    <a href="#">Cookie Policy</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scroll to Top -->
+    <button class="scroll-top" id="scrollTop" aria-label="Scroll to top">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+<script src="./js/script.js"></script>
+</body>
+</html>
